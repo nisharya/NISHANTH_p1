@@ -1,0 +1,29 @@
+package practise;
+
+import org.testng.annotations.Test;
+
+public class Parameters {
+	public WebDriver driver;
+	
+	  @Test(priority=0)
+	  @Parameters("browser_name")
+	  public void launch_browser(String browsername)
+	  {
+		switch (browsername)
+		{
+		case "chrome":
+			WebDriverManager.chromedriver().setup();
+			driver=new ChromeDriver();
+			Reporter.log("chrome lanched");
+			break;
+			
+		case "ie":
+			WebDriverManager.iedriver().setup();
+			driver=new InternetExplorerDriver();
+			Reporter.log("ie lanched");
+			break;
+
+		default:System.out.println("browser matched");
+			break; 
+  }
+}

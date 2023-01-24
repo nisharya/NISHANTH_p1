@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Nishanth P1/src/Suite_with_parameter.dtd&apos; to &apos;Suite_with_parameter.xml&apos;" description="Rename resource &apos;Suite_with_parameter.dtd&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/Suite_with_parameter.dtd" name="Suite_with_parameter.xml" stamp="1672722227249" updateReferences="true"/>
+</session>
